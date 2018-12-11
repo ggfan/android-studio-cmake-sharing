@@ -1,1 +1,7 @@
 shared-out
+**/.gradle
+**/.idea
+**/.externalNativeBuild
+**/*.iml
+**/local.properties
+

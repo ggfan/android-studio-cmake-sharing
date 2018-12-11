@@ -19,18 +19,6 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            externalNativeBuild {
-                cmake {
-                    arguments "-DVARIANT_NAME=release"
-                }
-            }
-        }
-        debug {
-            externalNativeBuild {
-                cmake {
-                    arguments "-DVARIANT_NAME=debug"
-                }
-            }
         }
     }
     externalNativeBuild {

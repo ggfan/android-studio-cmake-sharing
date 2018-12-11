@@ -4,7 +4,7 @@
 # Sets the minimum version of CMake required to build the native library.
 
 cmake_minimum_required(VERSION 3.4.1)
-add_subdirectory(../../../../../shared ../../../../../../shared-out/${VARIANT_NAME}/${ANDROID_ABI})
+add_subdirectory(../../../../../shared ../../../../../../shared-out/${CMAKE_BUILD_TYPE}/${ANDROID_ABI})
 
 # Creates and names a library, sets it as either STATIC
 # or SHARED, and provides the relative paths to its source code.
