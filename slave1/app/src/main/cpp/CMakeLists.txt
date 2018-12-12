@@ -44,8 +44,8 @@ target_link_libraries( # Specifies the target library.
         # Links the target library to the log library
         # included in the NDK.
         ${log-lib})
+        include(ExternalProject)
 
-include(ExternalProject)
 ExternalProject_Add(
     shared-lib
     SOURCE_DIR ${SHARED_PROJECT_ROOT}/shared

@@ -2,13 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da5d3cbc-7b4a-43ef-9308-7215ec51cc79" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/master/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slave1/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app1/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/app/src/main/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app1/app/src/main/cpp/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app2/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/app/src/main/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app2/app/src/main/cpp/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/shared/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/master/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/main/cpp/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/cpp/native-lib.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/main/cpp/native-lib.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/java/com/example/myapplication/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/main/java/com/example/myapplication/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/test/java/com/example/myapplication/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/test/java/com/example/myapplication/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/master/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/master/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/master/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/master/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/master/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/master/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/master/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/master/app/src/main/cpp/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/cpp/native-lib.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/main/cpp/native-lib.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/java/com/example/myapplication/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/main/java/com/example/myapplication/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/test/java/com/example/myapplication/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/app/src/test/java/com/example/myapplication/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/slave1/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/shared.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/shared/shared.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,67 +100,64 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app1/app/src/main/cpp/CMakeLists.txt">
+        <entry file="file://$PROJECT_DIR$/master/app/src/main/cpp/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="66" column="39" selection-start-line="47" selection-end-line="66" selection-end-column="39" />
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app2/app/src/main/cpp/CMakeLists.txt">
+      <file leaf-file-name="local.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/master/local.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="826">
-              <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+            <state>
+              <caret selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="local.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slave1/local.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slave1/app/src/main/cpp/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="764">
+              <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shared.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shared/shared.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="130" selection-start-line="8" selection-start-column="130" selection-end-line="8" selection-end-column="130" />
+            <state relative-caret-position="240">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="android_gradle_build.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app1/app/.externalNativeBuild/cmake/debug/x86/android_gradle_build.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="shared-lib-cfgcmd.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app1/app/.externalNativeBuild/cmake/debug/x86/shared-lib-prefix/tmp/shared-lib-cfgcmd.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="shared-lib-cfgcmd.txt.in" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app1/app/.externalNativeBuild/cmake/debug/x86/shared-lib-prefix/tmp/shared-lib-cfgcmd.txt.in">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="shared-lib-build" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app1/app/.externalNativeBuild/cmake/debug/x86/shared-lib-prefix/src/shared-lib-stamp/shared-lib-build">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="shared-lib-configure" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app1/app/.externalNativeBuild/cmake/debug/x86/shared-lib-prefix/src/shared-lib-stamp/shared-lib-configure">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="compile_commands.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app1/app/.externalNativeBuild/cmake/debug/x86/compile_commands.json">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app2/app/build.gradle">
+        <entry file="file://$PROJECT_DIR$/slave1/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            <state relative-caret-position="420">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -106,10 +183,13 @@
       <list>
         <option value="$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build_mini.json" />
         <option value="$PROJECT_DIR$/shared/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/app1/app/src/main/cpp/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/app1/app/build.gradle" />
         <option value="$PROJECT_DIR$/app2/app/build.gradle" />
+        <option value="$PROJECT_DIR$/shared/shared.cpp" />
         <option value="$PROJECT_DIR$/app2/app/src/main/cpp/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/app1/app/src/main/cpp/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/master/local.properties" />
+        <option value="$PROJECT_DIR$/slave1/local.properties" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -136,66 +216,17 @@
             <path>
               <item name="android-studio-cmake-sharing" type="b2602c69:ProjectViewProjectNode" />
               <item name="android-studio-cmake-sharing" type="462c0819:PsiDirectoryNode" />
-              <item name="app1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android-studio-cmake-sharing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android-studio-cmake-sharing" type="462c0819:PsiDirectoryNode" />
-              <item name="app2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android-studio-cmake-sharing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android-studio-cmake-sharing" type="462c0819:PsiDirectoryNode" />
-              <item name="app2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android-studio-cmake-sharing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android-studio-cmake-sharing" type="462c0819:PsiDirectoryNode" />
-              <item name="app2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android-studio-cmake-sharing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android-studio-cmake-sharing" type="462c0819:PsiDirectoryNode" />
-              <item name="app2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android-studio-cmake-sharing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android-studio-cmake-sharing" type="462c0819:PsiDirectoryNode" />
-              <item name="app2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="cpp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android-studio-cmake-sharing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android-studio-cmake-sharing" type="462c0819:PsiDirectoryNode" />
-              <item name="app2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android-studio-cmake-sharing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android-studio-cmake-sharing" type="462c0819:PsiDirectoryNode" />
-              <item name="app2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="android-studio-cmake-sharing" type="b2602c69:ProjectViewProjectNode" />
               <item name="android-studio-cmake-sharing" type="462c0819:PsiDirectoryNode" />
               <item name="shared" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-studio-cmake-sharing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-studio-cmake-sharing" type="462c0819:PsiDirectoryNode" />
+              <item name="slave1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -321,23 +352,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app2/local.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build_mini.json">
+    <entry file="file://$PROJECT_DIR$/slave1/app/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build_mini.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="220" selection-start-line="17" selection-start-column="220" selection-end-line="17" selection-end-column="220" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/.ninja_log">
+    <entry file="file://$PROJECT_DIR$/slave1/app/.externalNativeBuild/cmake/debug/arm64-v8a/.ninja_log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build_native-lib_arm64-v8a.stdout.txt">
+    <entry file="file://$PROJECT_DIR$/slave1/app/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build_native-lib_arm64-v8a.stdout.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build_native-lib_arm64-v8a.stderr.txt">
+    <entry file="file://$PROJECT_DIR$/slave1/app/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build_native-lib_arm64-v8a.stderr.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_generate_cmake_ninja_json_arm64-v8a.command.txt">
@@ -349,14 +377,14 @@
     <entry file="file://$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_generate_cmake_ninja_json_arm64-v8a.stdout.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build_native-lib_arm64-v8a.command.txt">
+    <entry file="file://$PROJECT_DIR$/slave1/app/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build_native-lib_arm64-v8a.command.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="7" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/build.ninja">
+    <entry file="file://$PROJECT_DIR$/slave1/app/.externalNativeBuild/cmake/debug/arm64-v8a/build.ninja">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
@@ -370,35 +398,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/rules.ninja">
+    <entry file="file://$PROJECT_DIR$/slave1/app/.externalNativeBuild/cmake/debug/arm64-v8a/rules.ninja">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/cmake_build_command.txt">
+    <entry file="file://$PROJECT_DIR$/slave1/app/.externalNativeBuild/cmake/debug/arm64-v8a/cmake_build_command.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app1/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/master/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" selection-start-line="13" selection-end-line="28" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app1/app/src/main/cpp/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="66" column="39" selection-start-line="47" selection-end-line="66" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app1/app/.externalNativeBuild/cmake/debug/x86/android_gradle_build.json">
+    <entry file="file://$PROJECT_DIR$/master/app/.externalNativeBuild/cmake/debug/x86/android_gradle_build.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app1/app/.externalNativeBuild/cmake/debug/x86/shared-lib-prefix/tmp/shared-lib-cfgcmd.txt">
@@ -413,27 +434,55 @@
     <entry file="file://$PROJECT_DIR$/app1/app/.externalNativeBuild/cmake/debug/x86/shared-lib-prefix/src/shared-lib-stamp/shared-lib-configure">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app1/app/.externalNativeBuild/cmake/debug/x86/compile_commands.json">
+    <entry file="file://$PROJECT_DIR$/master/app/.externalNativeBuild/cmake/debug/x86/compile_commands.json">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slave1/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/shared.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slave1/app/src/main/cpp/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="764">
+          <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/app/src/main/cpp/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slave1/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="130" selection-start-line="8" selection-start-column="130" selection-end-line="8" selection-end-column="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app2/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app2/app/src/main/cpp/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
-          <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
         </state>
       </provider>
     </entry>

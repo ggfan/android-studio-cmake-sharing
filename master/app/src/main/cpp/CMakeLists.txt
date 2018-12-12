@@ -4,6 +4,7 @@
 # Sets the minimum version of CMake required to build the native library.
 
 cmake_minimum_required(VERSION 3.4.1)
+add_subdirectory(${SHARED_PROJECT_ROOT}/shared ${SHARED_PROJECT_ROOT}/shared-out/${VARIANT_NAME}/${ANDROID_ABI})
 
 # Creates and names a library, sets it as either STATIC
 # or SHARED, and provides the relative paths to its source code.
@@ -45,23 +46,5 @@ target_link_libraries( # Specifies the target library.
         # included in the NDK.
         ${log-lib})
 
-include(ExternalProject)
-ExternalProject_Add(
-    shared-lib
-    SOURCE_DIR ${SHARED_PROJECT_ROOT}/shared
-    BINARY_DIR ${SHARED_PROJECT_ROOT}/shared-out/${VARIANT_NAME}/${ANDROID_ABI}
-    INSTALL_COMMAND ""
-    CMAKE_ARGS "-DCMAKE_TOOLCHAIN_FILE=${CMAKE_TOOLCHAIN_FILE}"
-               "-DANDROID_ABI=${ANDROID_ABI}"
-               "-DANDROID_PLATFORM=${ANDROID_PLATFORM}"
-               "-DCMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE}"
-               "-DANDROID_NDK=${ANDROID_NDK}"
-               "-DCMAKE_CXX_FLAGS=${CMAKE_CXX_FLAGS}"
-               "-DCMAKE_SYSTEM_NAME=${CMAKE_SYSTEM_NAME}"
-               "-DCMAKE_ANDROID_ARCH_ABI=${CMAKE_ANDROID_ARCH_ABI}"
-               "-DCMAKE_SYSTEM_VERSION=${CMAKE_SYSTEM_VERSION}"
-               "-DCMAKE_EXPORT_COMPILE_COMMANDS=${CMAKE_EXPORT_COMPILE_COMMANDS}"
-               "-DCMAKE_ANDROID_NDK=${CMAKE_ANDROID_NDK}"
 
-    )
 add_dependencies(native-lib shared-lib)
