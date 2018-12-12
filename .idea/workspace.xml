@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da5d3cbc-7b4a-43ef-9308-7215ec51cc79" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app1/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app1/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/app/src/androidTest/java/com/example/myapplication1/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app1/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/app/src/main/java/com/example/myapplication1/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app1/app/src/main/java/com/example/myapplication/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/app/src/test/java/com/example/myapplication1/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app1/app/src/test/java/com/example/myapplication/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/app/src/main/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app1/app/src/main/cpp/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app2/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app2/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/app/src/androidTest/java/com/example/myapplication2/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app2/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/app/src/main/java/com/example/myapplication2/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app2/app/src/main/java/com/example/myapplication/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/app/src/test/java/com/example/myapplication2/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app2/app/src/test/java/com/example/myapplication/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2/app/src/main/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app2/app/src/main/cpp/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/shared/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +17,102 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app1/app/src/main/cpp/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="66" column="39" selection-start-line="47" selection-end-line="66" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app2/app/src/main/cpp/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="826">
+              <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="130" selection-start-line="8" selection-start-column="130" selection-end-line="8" selection-end-column="130" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="android_gradle_build.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app1/app/.externalNativeBuild/cmake/debug/x86/android_gradle_build.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="shared-lib-cfgcmd.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app1/app/.externalNativeBuild/cmake/debug/x86/shared-lib-prefix/tmp/shared-lib-cfgcmd.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="shared-lib-cfgcmd.txt.in" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app1/app/.externalNativeBuild/cmake/debug/x86/shared-lib-prefix/tmp/shared-lib-cfgcmd.txt.in">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="shared-lib-build" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app1/app/.externalNativeBuild/cmake/debug/x86/shared-lib-prefix/src/shared-lib-stamp/shared-lib-build">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="shared-lib-configure" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app1/app/.externalNativeBuild/cmake/debug/x86/shared-lib-prefix/src/shared-lib-stamp/shared-lib-configure">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="compile_commands.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app1/app/.externalNativeBuild/cmake/debug/x86/compile_commands.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app2/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>shared</find>
+      <find>shared.cpp.o</find>
+      <find>-</find>
+      <find>-E</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build_mini.json" />
+        <option value="$PROJECT_DIR$/shared/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/app1/app/src/main/cpp/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/app1/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app2/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app2/app/src/main/cpp/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -27,7 +120,7 @@
     <option name="height" value="956" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -48,23 +141,61 @@
             <path>
               <item name="android-studio-cmake-sharing" type="b2602c69:ProjectViewProjectNode" />
               <item name="android-studio-cmake-sharing" type="462c0819:PsiDirectoryNode" />
-              <item name="app1" type="462c0819:PsiDirectoryNode" />
+              <item name="app2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-studio-cmake-sharing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-studio-cmake-sharing" type="462c0819:PsiDirectoryNode" />
+              <item name="app2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="android-studio-cmake-sharing" type="b2602c69:ProjectViewProjectNode" />
               <item name="android-studio-cmake-sharing" type="462c0819:PsiDirectoryNode" />
-              <item name="app1" type="462c0819:PsiDirectoryNode" />
+              <item name="app2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="android-studio-cmake-sharing" type="b2602c69:ProjectViewProjectNode" />
               <item name="android-studio-cmake-sharing" type="462c0819:PsiDirectoryNode" />
-              <item name="app1" type="462c0819:PsiDirectoryNode" />
+              <item name="app2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-studio-cmake-sharing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-studio-cmake-sharing" type="462c0819:PsiDirectoryNode" />
+              <item name="app2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="cpp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-studio-cmake-sharing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-studio-cmake-sharing" type="462c0819:PsiDirectoryNode" />
+              <item name="app2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-studio-cmake-sharing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-studio-cmake-sharing" type="462c0819:PsiDirectoryNode" />
+              <item name="app2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-studio-cmake-sharing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-studio-cmake-sharing" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -76,67 +207,6 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="android-studio-cmake-sharing" type="cbb8eebc:String" user="android-studio-cmake-sharing" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="android-studio-cmake-sharing" type="cbb8eebc:String" user="android-studio-cmake-sharing" />
-              <item name="app1" type="cbb8eebc:String" user="app1" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="android-studio-cmake-sharing" type="cbb8eebc:String" user="android-studio-cmake-sharing" />
-              <item name="app1" type="cbb8eebc:String" user="app1" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="android-studio-cmake-sharing" type="cbb8eebc:String" user="android-studio-cmake-sharing" />
-              <item name="app1" type="cbb8eebc:String" user="app1" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="android-studio-cmake-sharing" type="cbb8eebc:String" user="android-studio-cmake-sharing" />
-              <item name="app1" type="cbb8eebc:String" user="app1" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main" type="cbb8eebc:String" user="main" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="android-studio-cmake-sharing" type="cbb8eebc:String" user="android-studio-cmake-sharing" />
-              <item name="app1" type="cbb8eebc:String" user="app1" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main" type="cbb8eebc:String" user="main" />
-              <item name="java/com/example/myapplication" type="cbb8eebc:String" user="java/com/example/myapplication" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="android-studio-cmake-sharing" type="cbb8eebc:String" user="android-studio-cmake-sharing" />
-              <item name="app2" type="cbb8eebc:String" user="app2" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="android-studio-cmake-sharing" type="cbb8eebc:String" user="android-studio-cmake-sharing" />
-              <item name="app2" type="cbb8eebc:String" user="app2" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="android-studio-cmake-sharing" type="cbb8eebc:String" user="android-studio-cmake-sharing" />
-              <item name="app2" type="cbb8eebc:String" user="app2" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="android-studio-cmake-sharing" type="cbb8eebc:String" user="android-studio-cmake-sharing" />
-              <item name="app2" type="cbb8eebc:String" user="app2" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main" type="cbb8eebc:String" user="main" />
             </path>
           </expand>
           <select />
@@ -218,6 +288,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="956" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -231,14 +302,14 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23392858" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -248,5 +319,123 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app2/local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build_mini.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="220" selection-start-line="17" selection-start-column="220" selection-end-line="17" selection-end-column="220" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/.ninja_log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build_native-lib_arm64-v8a.stdout.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build_native-lib_arm64-v8a.stderr.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_generate_cmake_ninja_json_arm64-v8a.command.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_generate_cmake_ninja_json_arm64-v8a.stderr.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_generate_cmake_ninja_json_arm64-v8a.stdout.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build_native-lib_arm64-v8a.command.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/build.ninja">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/rules.ninja">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app2/app/.externalNativeBuild/cmake/debug/arm64-v8a/cmake_build_command.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app1/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app1/app/src/main/cpp/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="66" column="39" selection-start-line="47" selection-end-line="66" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app1/app/.externalNativeBuild/cmake/debug/x86/android_gradle_build.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app1/app/.externalNativeBuild/cmake/debug/x86/shared-lib-prefix/tmp/shared-lib-cfgcmd.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app1/app/.externalNativeBuild/cmake/debug/x86/shared-lib-prefix/tmp/shared-lib-cfgcmd.txt.in">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app1/app/.externalNativeBuild/cmake/debug/x86/shared-lib-prefix/src/shared-lib-stamp/shared-lib-build">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app1/app/.externalNativeBuild/cmake/debug/x86/shared-lib-prefix/src/shared-lib-stamp/shared-lib-configure">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app1/app/.externalNativeBuild/cmake/debug/x86/compile_commands.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="130" selection-start-line="8" selection-start-column="130" selection-end-line="8" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app2/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app2/app/src/main/cpp/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="826">
+          <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

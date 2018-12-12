@@ -9,11 +9,6 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        externalNativeBuild {
-            cmake {
-                cppFlags ""
-            }
-        }
     }
     buildTypes {
         release {
@@ -21,14 +16,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             externalNativeBuild {
                 cmake {
-                    arguments "-DVARIANT_NAME=release"
+                    arguments "-DVARIANT_NAME=release", "-DSHARED_PROJECT_ROOT="+rootProject.projectDir.parent.replace("\\", "/")
                 }
             }
         }
         debug {
             externalNativeBuild {
                 cmake {
-                    arguments "-DVARIANT_NAME=debug"
+                    arguments "-DVARIANT_NAME=debug", "-DSHARED_PROJECT_ROOT="+rootProject.projectDir.parent.replace("\\", "/")
                 }
             }
         }
@@ -36,6 +31,7 @@ android {
     externalNativeBuild {
         cmake {
             path "src/main/cpp/CMakeLists.txt"
+            version "3.10.2"
         }
     }
 }
