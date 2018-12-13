@@ -1,0 +1,9 @@
+CMakeCache.txt
+CMakeFiles
+cmake_install.cmake
+Makefile
+.a
+app1
+app2
+**/out
+
